@@ -10,12 +10,12 @@ export default function WidgetLarge() {
             
             <div className="widgetLargeNav">
             
-                <a className="activelink" href="#">
+                <a className="activelink" href="./app.css">
                    Overview</a>
-                <a href="#">Activity Log</a>
-                <a href="#">Points</a>
-                <a href="#">Rewards</a>
-                <a href="#">Notes</a>
+                <a href="./app.css">Activity Log</a>
+                <a href="./app.css">Points</a>
+                <a href="./app.css">Rewards</a>
+                <a href="./app.css">Notes</a>
                 
             </div>
             
