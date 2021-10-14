@@ -1,0 +1,225 @@
+.widgetlarge{
+    flex: 3;
+}
+.widgetLargeNav{
+    background-color: white;
+    grid-area: nav;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 200px 0 200px;
+    border-bottom: 3px solid lightgray;
+
+}
+.widgetLargeNav > a {
+        margin-top: 15px;
+        
+        text-decoration: none;
+        color: black;
+        font-size: 15px;
+        font-weight: 700;
+}
+.widgetLargeNav .activelink{
+        color: #00306e;
+        border-bottom: 3px solid #00306e;
+        padding-bottom: 12px;
+}
+
+.widgetLargeMain{
+    display: flex;
+
+}
+
+.widgetLargeRight{
+    flex: 1;
+}
+
+
+
+/*--------------------------------------------------*/
+
+.widgetLargeLeft{
+    flex: 2;
+}
+.widgetLargeBox1{
+    background-color: white;
+    width: 600px;
+    height: 247px;
+    margin: 25px;
+    border: 1px solid lightgray;
+}
+.widgetLargeBox1Item1{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+   
+    
+}
+.box1Item1{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 600;
+}
+.box1Item1text2{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+}
+.box1Item2, .box1Item3, .box1Item4{
+    margin-top: 20px;
+    color: gray;
+    font-size: 14px;
+}
+.box1Item2text2, .box1Item3text2, .box1Item4text2{
+    margin-top: 20px;
+    color: black;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+
+.widgetLargeBox1Item{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    margin-top: 10px;
+    border-bottom: 1px solid lightgray;
+}
+.box1Item1Icon1{
+    transform: scale(0.7);
+    color: #00306e;
+}
+.box1Item1Icon2{
+    transform: scale(0.5);
+}
+
+
+
+.widgeLargeBoxBottom{
+    background-color: #f5f5f5;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    margin-top: 35px;
+}
+.widgeLargeBoxBottomButton{
+    margin-top: 1px;
+    border: none;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    background-color: #f5f5f5;
+}
+.widgeLargeBoxBottomText{
+    font-size: 16px;
+}
+.widgeLargeBoxBottomIcon{
+    transform: scale(0.6);
+}
+
+/*-------- Widget Large RIght Side--------------*/
+.widgetLargeRightContent{
+    margin-top: 28px;
+}
+.widgetLargeRightbox4{
+    margin-top: 10px;
+    background-color: white;
+    width: 100%;
+    height: 220px;
+    border: 1px solid rgb(56, 199, 255);
+}
+.RightBoxItems{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    border-bottom: 1px solid lightgray;
+}
+.RightBoxItems1{    
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+.RightBoxIcon{
+    color: #00306e;
+    transform: scale(0.6);
+}
+.RightBoxItemsText1{
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    color: darkgray;
+}
+.RightBoxItemsText{
+    font-size: 18px;
+    font-weight: 700;
+
+}
+.RightBoxItemsText2{
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    font-weight: 700;
+}
+.RightBoxItemsText2part1{
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    cursor: pointer;
+    
+}
+
+
+
+/*-------------Last Box-----------*/
+
+.widgetLargeRightbox6{
+    margin-top: 10px;
+    background-color: white;
+    width: 100%;
+    height: 240px;
+    border: 1px solid rgb(56, 199, 255);
+}
+.RightLastBoxItems1{    
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+.RightLastBoxItemsText{
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.RightLastBoxItems{
+    width: 90%;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+}
+.RightLastBoxItemsText1{
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    color: black;
+    margin-left: 10px;
+    font-weight: 550;
+}
+
+.RightLastBoxItemsText2{
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    margin-right: 10px;
+    font-weight: 550;
+}
+.RightLastBoxImg{
+    height: 30px;
+    width: 30px;
+}
+
+

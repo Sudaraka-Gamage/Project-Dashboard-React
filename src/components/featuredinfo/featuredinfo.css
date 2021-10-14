@@ -1,0 +1,423 @@
+.featured{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    grid-template-columns: 1fr 1fr;
+}
+.featuredInfoLeft{
+    width: 26%;
+    background: #f5f5f5;
+    align-items: center;
+    justify-content: space-between;
+    border-right: 1px solid lightgray;
+  
+}
+.featuredImg{
+    margin: 10px;
+    height: 90px;
+    width: 95px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.featuredLeftList{
+    margin: 36px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    padding : 0;
+    list-style: none;
+}
+.featuredLeftListItem{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 0px;
+}
+.featuredInfoLeftUser{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+
+}
+.featureUserName{
+    font-size: 22px;
+    font-weight: 600;
+
+}
+.featureUserNumber{
+    font-size: 16px;
+    font-weight: 400;
+}
+.featuredUserLastSeen{
+    font-size: 14px;
+    font-weight: 600;
+}
+
+
+
+
+
+
+/*Featured Info Right side cards*/
+
+.featuredInfoRight{
+    width: 74%;
+    background: #f5f5f5;
+}
+
+.featuredInfoRightCards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    
+}
+.card1{
+  
+    height: 100px;
+    width: 300px;
+    background-color: #f5f5f5;
+    color: black;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid lightgray;
+    border-right: 1px solid lightgray;
+}
+.card1LeftItem{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.card1LeftItemEmail{
+    margin: 10px;
+    padding-right: 160px;
+}
+.card1RightItem{
+    margin-right: 15px;
+    color: #00306e;
+    text-decoration: underline;
+    margin-top: 30px;
+    cursor: pointer;
+}
+.card1Icon{
+    color: #00306e;
+    transform: scale(0.6);
+    cursor: pointer;
+}
+
+.card1LeftItemEmailId{
+    display: flex;
+    align-items: center;
+}
+
+/*----------------------------------------*/
+/*----------------------------------------------------------*/
+
+.card2{
+    height: 100px;
+    width: 210px;
+    background-color: #f5f5f5;
+    color: black;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid lightgray;
+    border-right: 1px solid lightgray;
+
+}
+.card2LeftItem{
+    margin-top: 25px;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.card2LeftItemAcc{
+    margin: 10px;  
+}
+.card2LeftItemType{
+    display: flex;
+    align-items: center;
+}
+.card2RightItem{
+    margin-top: 25px;
+    padding-right: -5px;
+    cursor: pointer;
+}
+.card2Icon{
+    color: black;
+    transform: scale(0.5);
+    cursor: pointer;    
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+   position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+    color: #00306e;
+    background-color: white;
+  }
+  .card2Button{
+      border: none;
+      background-color: #f5f5f5;
+  }
+
+/*----------------------------------------------------------*/
+
+.card3{
+    height: 100px;
+    width: 220px;
+    background-color: #f5f5f5;
+    color: black;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid lightgray;
+    border-right: 1px solid lightgray;
+}
+.card3LeftItem{
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+}
+.card3LeftItemRedeem{
+    margin: 10px;
+    padding-right: 30px;  
+}
+.card3LeftItemRedeemPoints{
+   
+    padding-right: 125px;
+    
+}
+.card3LeftItemRedeemDetails{
+    color: red;
+    font-size: 11px;
+    
+}
+.card3RightItem{
+    margin-top: 25px;
+    padding-right: -5px;
+    cursor: pointer;
+}
+.card3Icon{
+    color: black;
+    transform: scale(0.5);
+    cursor: pointer;    
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+   position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+    color: #00306e;
+    background-color: white;
+  }
+  .card3Button{
+      border: none;
+      background-color: #f5f5f5;
+  }
+
+/*----------------------------------------------------------*/
+
+.card4{
+    height: 100px;
+    width: 300px;
+    background-color: #f5f5f5;
+    color: black;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+    border-bottom: 1px solid lightgray;
+    
+}
+.card4Img{
+    width: 40px;
+    height: 40px;
+}
+.card4LeftItem{
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.card4LeftItemTier{
+    margin: 5px;
+    padding-right: 220px;
+}
+
+
+.card4LeftItemMedal{
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    font-weight: 600;
+}
+
+/*-----------------------------------------*/
+
+
+.card5{
+    height: 100px;
+    width: 300px;
+    background-color: #f5f5f5;
+    color: black;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+    border-right: 1px solid lightgray;
+}
+
+.card5Icon{
+    color: #00306e;
+    transform: scale(0.6);
+    cursor: pointer;
+}
+.card5LeftItem{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.card5LeftItemContact{
+    margin: 10px;
+    padding-right: 210px;
+}
+
+.card5LeftItemContactNumber{
+    display: flex;
+    align-items: center;
+}
+
+/*-----------------------------------------*/
+
+
+
+
+
+
+
+
+.card6{
+    height: 100px;
+    width: 210px;
+    background-color: #f5f5f5;
+    color: black;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 600;
+    border-right: 1px solid lightgray;
+}
+.card6LeftItem{
+    margin-top: 34px;
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+}
+.card6LeftItemTierPoint{
+    margin-bottom: 5px;
+}
+.card6Button{
+    width: 100px;
+    background-color: #00b536;
+    border: none;
+    border-radius: 25px;
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    cursor: pointer;
+
+}
+.card6ButtonText{
+    color: white;
+    font-size: 16px;
+}
+.card6ButtonIcon{
+    
+    color: white;
+    transform: scale(0.7);
+}
+
+
+
+/*---------------------------------------------------------------*/
+
+.card7{
+    height: 100px;
+    width: 220px;
+    background-color: #f5f5f5;
+    color: black;
+    font-size: 14px;
+    font-weight: 600;
+    border-right: 1px solid lightgray;
+}
+.card7LeftItem{
+    margin-top: 15px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.card7LeftItemTierPoint{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding-right: 135px;
+}
+
+.card7LeftItemTierCount{
+   padding-right: 175px;
+}
+
+
+
+
+/*---------------------------------------------------------------*/
+
+.card8{
+    height: 100px;
+    width: 300px;
+    background-color: #f5f5f5;
+    color: black;
+    font-size: 14px;
+    font-weight: 600;
+}
+.card8LeftItem{
+    margin-top: 15px;
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+}
+.card8LeftItemTierPoint{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding-right: 135px;
+}
+
+.card8LeftItemTierCount{
+   padding-right: 175px;
+}

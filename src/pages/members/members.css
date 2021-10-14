@@ -1,0 +1,14 @@
+.container2{
+    flex: 5;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    background-color:white;
+
+    -webkit-box-shadow: -12px 0px 12px -8px rgba(0,0,0,0.4); 
+box-shadow: -12px 0px 12px -8px rgba(0,0,0,0.4);
+}
+.membersWidget{
+    display: flex;
+    margin: 20px;
+
+}
